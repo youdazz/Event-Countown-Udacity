@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		C45256D72C216D8400B46848 /* Event_CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256D62C216D8400B46848 /* Event_CountdownApp.swift */; };
-		C45256D92C216D8400B46848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256D82C216D8400B46848 /* ContentView.swift */; };
+		C45256D92C216D8400B46848 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256D82C216D8400B46848 /* EventView.swift */; };
 		C45256DB2C216D8700B46848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45256DA2C216D8700B46848 /* Assets.xcassets */; };
 		C45256DE2C216D8700B46848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45256DD2C216D8700B46848 /* Preview Assets.xcassets */; };
+		C45256E62C216DA600B46848 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256E52C216DA600B46848 /* Event.swift */; };
+		C45256E92C216EF600B46848 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256E82C216EF600B46848 /* EventRow.swift */; };
+		C45256EB2C21788C00B46848 /* EventForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45256EA2C21788C00B46848 /* EventForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C45256D32C216D8400B46848 /* Event Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45256D62C216D8400B46848 /* Event_CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event_CountdownApp.swift; sourceTree = "<group>"; };
-		C45256D82C216D8400B46848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C45256D82C216D8400B46848 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		C45256DA2C216D8700B46848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45256DD2C216D8700B46848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C45256E52C216DA600B46848 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C45256E82C216EF600B46848 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		C45256EA2C21788C00B46848 /* EventForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,10 @@
 		C45256D52C216D8400B46848 /* Event Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				C45256E72C216EE400B46848 /* View */,
+				C45256E42C216D9900B46848 /* Model */,
 				C45256D62C216D8400B46848 /* Event_CountdownApp.swift */,
-				C45256D82C216D8400B46848 /* ContentView.swift */,
+				C45256D82C216D8400B46848 /* EventView.swift */,
 				C45256DA2C216D8700B46848 /* Assets.xcassets */,
 				C45256DC2C216D8700B46848 /* Preview Content */,
 			);
@@ -65,6 +73,23 @@
 				C45256DD2C216D8700B46848 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C45256E42C216D9900B46848 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45256E52C216DA600B46848 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C45256E72C216EE400B46848 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C45256E82C216EF600B46848 /* EventRow.swift */,
+				C45256EA2C21788C00B46848 /* EventForm.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45256D92C216D8400B46848 /* ContentView.swift in Sources */,
+				C45256D92C216D8400B46848 /* EventView.swift in Sources */,
+				C45256EB2C21788C00B46848 /* EventForm.swift in Sources */,
+				C45256E62C216DA600B46848 /* Event.swift in Sources */,
 				C45256D72C216D8400B46848 /* Event_CountdownApp.swift in Sources */,
+				C45256E92C216EF600B46848 /* EventRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

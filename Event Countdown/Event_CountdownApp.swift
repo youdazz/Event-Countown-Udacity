@@ -11,7 +11,7 @@ import SwiftUI
 struct Event_CountdownApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EventView()
         }
     }
 }
