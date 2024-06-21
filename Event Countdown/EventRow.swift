@@ -21,12 +21,12 @@ struct EventRow: View {
         VStack {
             Text(event.title)
                 .foregroundColor(event.textColor)
-                .frame(width: .infinity)
             Text(dateString).onReceive(timer, perform: { input in
                 self.dateString = RelativeDateTimeFormatter().string(for: event.date) ?? ""
-            }).frame(width: .infinity)
+            })
         }
         .multilineTextAlignment(.leading)
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

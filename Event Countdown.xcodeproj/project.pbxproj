@@ -57,10 +57,11 @@
 		C45256D52C216D8400B46848 /* Event Countdown */ = {
 			isa = PBXGroup;
 			children = (
-				C45256E72C216EE400B46848 /* View */,
-				C45256E42C216D9900B46848 /* Model */,
+				C45256E52C216DA600B46848 /* Event.swift */,
 				C45256D62C216D8400B46848 /* Event_CountdownApp.swift */,
 				C45256D82C216D8400B46848 /* EventView.swift */,
+				C45256E82C216EF600B46848 /* EventRow.swift */,
+				C45256EA2C21788C00B46848 /* EventForm.swift */,
 				C45256DA2C216D8700B46848 /* Assets.xcassets */,
 				C45256DC2C216D8700B46848 /* Preview Content */,
 			);
@@ -73,23 +74,6 @@
 				C45256DD2C216D8700B46848 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C45256E42C216D9900B46848 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				C45256E52C216DA600B46848 /* Event.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		C45256E72C216EE400B46848 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C45256E82C216EF600B46848 /* EventRow.swift */,
-				C45256EA2C21788C00B46848 /* EventForm.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
